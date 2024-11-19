@@ -7,7 +7,7 @@ const CategoryCard = ({background , img , title}) => {
         ms="6"
         sm="6"
         md="4"
-        lg="2"
+        lg="3"
         className='my-4 d-flex justify-content-around'
     >
         <div className='allCard mb-3'>

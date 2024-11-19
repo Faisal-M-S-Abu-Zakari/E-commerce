@@ -10,7 +10,7 @@ import pic from '../../images/pic.png'
 const HomeCategory = () => {
   return (
     <Container>
-    <SubTitle title='التصنيفات' btnTitle="المزيد" />
+    <SubTitle title='التصنيفات' btnTitle="المزيد" pathText={'/Allcategory'} />
     <Row className='d-flex justify-content-betwee my-2'>
         <CategoryCard title="اجهزة منزلية" img={clothe} background='#f4dba5'/>
         <CategoryCard title="اجهزة منزلية" img={cat2} background='#0034ff'/>

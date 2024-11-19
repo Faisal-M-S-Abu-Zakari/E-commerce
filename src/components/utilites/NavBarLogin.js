@@ -1,10 +1,10 @@
 import { FormControl } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import logo from '../../images/logo.png'
 import login from '../../images/login.png'
 import cart from '../../images/cart.png'
