@@ -5,6 +5,7 @@ import LoginPage from "./Pages/Auth/LoginPage";
 import { Routes, Route } from "react-router-dom";
 import RegisterPage from "./Pages/Auth/RegisterPage";
 import AllCategory from "./Pages/Category/AllCategoryPage";
+import BrandPage from "./Pages/Brand/BrandPage";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/Allcategory" element={<AllCategory />} />
+        <Route path="/Allbrand" element={<BrandPage />} />
       </Routes>
       <Footer />
     </div>

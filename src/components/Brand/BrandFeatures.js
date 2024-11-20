@@ -11,7 +11,7 @@ import brand5 from '../../images/brand2.png'
 const BrandFeatures = ({title , btnTitle}) => {
     return (
         <Container className='mt-3'>
-        <SubTitle title={title} btnTitle={btnTitle} />
+        <SubTitle title={title} btnTitle={btnTitle} pathText={'/Allbrand'} />
         <Row className='d-flex justify-content-betwee my-1'>
             <BrandCard img={brand1}/>
             <BrandCard img={brand2}/>
