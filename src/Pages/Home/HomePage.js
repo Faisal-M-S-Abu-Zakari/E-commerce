@@ -12,10 +12,10 @@ const HomePage = ()=>{
         <div className="font" style={{minHeight:'670px'}}>
             <Slider />
             <HomeCategory />
-            <CardsProductContainer btnTitle='المزيد' title='الاكثر مبيعا' />
+            <CardsProductContainer btnTitle='المزيد' title='الاكثر مبيعا' pathText={'/ShowProduct'} />
             <CardsProductContainer btnTitle='المزيد' title='الاكثر تقييما' />
             <DiscountSection />
-            <CardsProductContainer btnTitle='المزيد' title="أحدث الازياء" />
+            <CardsProductContainer btnTitle='المزيد' title="أحدث الازياء"  pathText={'/ShowProduct'} />
             <BrandFeatures  btnTitle='المزيد' title="اشهر الماركات "/>
 
         </div>
